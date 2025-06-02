@@ -107,7 +107,6 @@ const ContactPage: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1">Адрес</h3>
                   <p className="text-gray-600">г. Бишкек, ул. Анкара 70</p>
-                  <p className="text-gray-600">Москва, 123456, Россия</p>
                 </div>
               </div>
               
@@ -120,7 +119,7 @@ const ContactPage: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1">Телефоны</h3>
                   <p className="text-gray-600">Отдел продаж: +996 550 200 300</p>
-                  <p className="text-gray-600">Техническая поддержка: +7 (999) 765-43-21</p>
+                  <p className="text-gray-600">Техническая поддержка: +996 222 333 555</p>
                 </div>
               </div>
               
@@ -133,7 +132,7 @@ const ContactPage: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1">Email</h3>
                   <p className="text-gray-600">Общие вопросы: info@dekodoska.kg</p>
-                  <p className="text-gray-600">Отдел продаж: sales@dekodoska.ru</p>
+                  <p className="text-gray-600">Отдел продаж: sales@dekodoska.kg</p>
                 </div>
               </div>
               
@@ -155,14 +154,14 @@ const ContactPage: React.FC = () => {
             {/* Map */}
             <div className="mt-8 h-80 bg-gray-200 rounded-lg overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.5887690331656!2d37.617564076942886!3d55.75639997987272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2sKremlin!5e0!3m2!1sen!2sru!4v1697794331599!5m2!1sen!2sru" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Карта расположения компании"
-              ></iframe>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.8316131287024!2d74.65910967601602!3d42.85528857115124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb6e9e7e074f1%3A0x61a7885267563a1e!2zNzAg0YPQuy4g0JDQvdC60LDRgNCwLCDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1748834320583!5m2!1sru!2skg"
+  width="100%" 
+  height="100%" 
+  style={{ border: 0, minHeight: '400px' }} 
+  loading="lazy" 
+  referrerPolicy="no-referrer-when-downgrade" 
+  title="Карта расположения компании (Бишкек)"
+></iframe>
             </div>
           </div>
           
